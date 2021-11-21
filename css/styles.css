@@ -3,6 +3,8 @@ body {
   color: #757575;
   font-family: Roboto, sans-serif;
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -13,7 +15,7 @@ ul {
 .logo {
   color: #000000;
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -23,18 +25,14 @@ ul {
   color: #2196f3;
 }
 
-.logo .letter {
-  color: #ffffff;
-}
-
 /* site-nav-list */
 
 .site-nav-list .link {
   color: #212121;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav-list .link:hover,
@@ -49,9 +47,9 @@ ul {
 .contacts-list .link {
   color: #757575;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .contacts-list .link:hover,
@@ -59,17 +57,21 @@ ul {
   color: #2196f3;
 }
 
+/* ОФРМЛЕНИЕ ДЛЯ index.html */
+
 /* hero */
+
+.hero {
+  background: #2f303a;
+}
 
 .hero-title {
   color: #ffffff;
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 /* button */
@@ -77,18 +79,102 @@ ul {
 .btn-primary {
   color: #ffffff;
   background: #2196f3;
-}
-
-/* section */
-
-.section-title {
-  color: #212121;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* feature */
 
 .feature-list .title {
   color: #212121;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* section */
+
+.section-title {
+  color: #212121;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* work */
+
+/* Team  */
+
+.section-team {
+  background: #f5f4fa;
+}
+
+.team-list .title {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Footer  */
+
+footer {
+  background: #2f303a;
+}
+
+.logo .letter {
+  color: #ffffff;
+}
+
+address {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.contacts-list .link-bottom {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.contacts-list .link-bottom:hover,
+.contacts-list .link-bottom:focus {
+  color: #2196f3;
+}
+
+/* ОФРМЛЕНИЕ ДЛЯ portfolio.html */
+
+.btn-list .btn-secondary {
+  color: #212121;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-list .btn-secondary:hover,
+.btn-list .btn-secondary:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-list .title {
+  color: #212121;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list .text {
+  font-size: 16px;
+  line-height: 1.88;
+}
