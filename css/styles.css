@@ -1,6 +1,9 @@
 body {
   background: #ffffff;
   color: #757575;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -9,29 +12,46 @@ ul {
 
 .logo {
   color: #000000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
-/* site-nav */
+.logo .accent {
+  color: #2196f3;
+}
 
-.site-nav .link {
+/* site-nav-list */
+
+.site-nav-list .link {
   color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-list .link:hover,
+.site-nav-list .link:focus {
   color: #2196f3;
 }
 
-.site-nav .link.current {
+.site-nav-list .current {
   color: #2196f3;
 }
 
-.contacts .link {
+.contacts-list .link {
   color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts-list .link:hover,
+.contacts-list .link:focus {
   color: #2196f3;
 }
 
@@ -39,11 +59,18 @@ ul {
 
 .hero-title {
   color: #ffffff;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* button */
 
-.button.primary {
+.button-primary {
   color: #ffffff;
   background: #2196f3;
 }
@@ -61,6 +88,3 @@ ul {
 }
 
 /* work */
-
-.work-list {
-}
