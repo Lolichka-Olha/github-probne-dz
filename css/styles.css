@@ -23,6 +23,10 @@ ul {
   color: #2196f3;
 }
 
+.logo .letter {
+  color: #ffffff;
+}
+
 /* site-nav-list */
 
 .site-nav-list .link {
@@ -70,7 +74,7 @@ ul {
 
 /* button */
 
-.button-primary {
+.btn-primary {
   color: #ffffff;
   background: #2196f3;
 }
