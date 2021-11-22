@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Остальной код */
+
 body {
   background: #ffffff;
   color: #757575;
@@ -9,6 +17,8 @@ body {
 }
 
 ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -66,6 +76,9 @@ ul {
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -77,6 +90,11 @@ ul {
 /* button */
 
 .btn-primary {
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  border: transparent;
+
   color: #ffffff;
   background: #2196f3;
   font-family: inherit;
@@ -85,6 +103,7 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  text-align: center;
 }
 
 /* feature */
@@ -152,11 +171,18 @@ address {
 /* ОФРМЛЕНИЕ ДЛЯ portfolio.html */
 
 .btn-list .btn-secondary {
+  border-radius: 4px;
+  padding: 6px 22px;
+  display: inline-block;
+  border: transparent;
+  min-width: 73px;
+
   color: #212121;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  background: #f5f4fa;
   text-align: center;
   cursor: pointer;
 }
