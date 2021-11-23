@@ -16,10 +16,35 @@ body {
   letter-spacing: 0.03em;
 }
 
+.container {
+  margin-left: 215px;
+  margin-right: 215px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid coral;
+}
+
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+h3 {
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -72,18 +97,21 @@ ul {
 /* hero */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background: #2f303a;
+  text-align: center;
 }
 
 .hero-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -115,6 +143,17 @@ ul {
 }
 
 /* section */
+
+.section-feature,
+.section,
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-feature {
+  padding-bottom: 0;
+}
 
 .section-title {
   color: #212121;
@@ -194,6 +233,9 @@ address {
 }
 
 .portfolio-list .title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+
   color: #212121;
   font-size: 18px;
   line-height: 2;
