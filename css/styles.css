@@ -17,8 +17,8 @@ body {
 }
 
 .container {
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-left: auto;
+  margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -29,7 +29,9 @@ ul {
   margin: 0;
   list-style: none;
 }
-
+h1,
+h2,
+h3,
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -38,12 +40,14 @@ p {
 .site-nav {
   display: flex;
   align-items: center;
+  height: 80px;
 }
 
 .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
   margin-right: 93px;
+  align-items: center;
 
   color: #000000;
   font-family: Raleway;
@@ -127,7 +131,6 @@ p {
 }
 
 .hero-title {
-  margin-top: 0;
   margin-bottom: 30px;
 
   color: #ffffff;
@@ -207,7 +210,6 @@ p {
 }
 
 .section-title {
-  margin-top: 0;
   margin-bottom: 50px;
 
   color: #212121;
@@ -228,6 +230,10 @@ p {
 
 /* Team  */
 
+.section-team {
+  background: #f5f4fa;
+}
+
 .team-list {
   display: flex;
   text-align: center;
@@ -241,10 +247,6 @@ p {
 
 .team-list .item + .item {
   margin-left: 30px;
-}
-
-.section-team {
-  background: #f5f4fa;
 }
 
 .team-list .title {
@@ -266,8 +268,10 @@ p {
 
 /* Footer  */
 
-footer {
+.page-footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo .letter {
@@ -277,6 +281,7 @@ footer {
 address {
   color: #ffffff;
   font-style: normal;
+  margin-top: 20px;
 }
 
 .contacts-list-bottom .item {
@@ -284,9 +289,6 @@ address {
   margin-top: 9px;
 }
 
-.contacts-list-bottom .item + .item {
-  padding-bottom: 60px;
-}
 .contacts-list-bottom .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -338,6 +340,9 @@ address {
 }
 
 .portfolio-list .item {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+
   /* width: calc((100% - 2 * 30px) / 3); */
   width: 370px;
   margin-right: 30px;
@@ -353,8 +358,9 @@ address {
 }
 
 .portfolio-list .title {
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 4px;
+  padding-left: 24px;
 
   color: #212121;
   font-size: 18px;
@@ -365,4 +371,6 @@ address {
 .portfolio-list .text {
   font-size: 16px;
   line-height: 1.88;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
